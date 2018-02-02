@@ -22,5 +22,10 @@ function accessElementInArray(array, index) {
   return array[2];
 }
 
+function destructivelyRemoveElementToEndOfArray(array, element) {
+  array.push(element);
+  return array;
+}
+
 
 
